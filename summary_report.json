@@ -1,0 +1,83 @@
+{
+    "model": "qwen2.5:7b",
+    "overall": {
+        "total": 300,
+        "successful": 300,
+        "accuracy": 0.7533,
+        "average_score": 0.7503,
+        "average_latency": 103.864
+    },
+    "accuracy_95_ci": [
+        0.7067,
+        0.8033
+    ],
+    "by_language": {
+        "EN": {
+            "total": 100,
+            "successful": 100,
+            "accuracy": 0.88,
+            "average_score": 0.88,
+            "average_latency": 106.397
+        },
+        "RU": {
+            "total": 100,
+            "successful": 100,
+            "accuracy": 0.81,
+            "average_score": 0.801,
+            "average_latency": 104.544
+        },
+        "KZ": {
+            "total": 100,
+            "successful": 100,
+            "accuracy": 0.57,
+            "average_score": 0.57,
+            "average_latency": 100.652
+        }
+    },
+    "by_task": {
+        "NLI": {
+            "total": 80,
+            "successful": 80,
+            "accuracy": 0.8,
+            "average_score": 0.8,
+            "average_latency": 110.68
+        },
+        "QA_EXTRACTIVE": {
+            "total": 30,
+            "successful": 30,
+            "accuracy": 0.8,
+            "average_score": 0.7699,
+            "average_latency": 95.287
+        },
+        "QA_MULTIPLE_CHOICE": {
+            "total": 190,
+            "successful": 190,
+            "accuracy": 0.7263,
+            "average_score": 0.7263,
+            "average_latency": 102.349
+        }
+    },
+    "by_source": {
+        "Belebele": {
+            "total": 190,
+            "successful": 190,
+            "accuracy": 0.7263,
+            "average_score": 0.7263,
+            "average_latency": 102.349
+        },
+        "SberQuAD": {
+            "total": 30,
+            "successful": 30,
+            "accuracy": 0.8,
+            "average_score": 0.7699,
+            "average_latency": 95.287
+        },
+        "XNLI": {
+            "total": 80,
+            "successful": 80,
+            "accuracy": 0.8,
+            "average_score": 0.8,
+            "average_latency": 110.68
+        }
+    }
+}
